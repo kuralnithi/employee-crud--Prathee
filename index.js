@@ -15,7 +15,7 @@ app.use("/api", employeeRouter);
 app.use("/api", userRouter);
 
 app.listen(5000, () => {
-  console.log("server listening on port", 5000);
+  console.log("server listening on port>>", 5000);
 });
 
 ConnectDb();
